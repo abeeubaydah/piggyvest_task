@@ -1,0 +1,161 @@
+/*--global--*/
+
+
+body{
+  font-family: Sans-Serif;
+  background-color:#ADD8E6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-size: 24px;
+}
+
+
+/*---reusable--*/
+/*body, container, frm-wrap, welcome-wrap, form, input, label, header, figure, img, h1, p{border: solid 2px blue;}*/
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.frm-wrap {
+  border-radius: 25px;
+  border-bottom-left-radius: 1px;
+} 
+input:focus,
+button:focus {outline:none;}
+  
+  /*--resources---*/
+  
+.search_categories {
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #e3eaf289;
+  /*border: 1px solid #ccc;*/
+  height: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  outline: none;
+}
+
+.search_categories .select{
+  width: 120%;
+  background:url(https://res.cloudinary.com/omobola/image/upload/c_fit,co_rgb:ffffff,h_15,q_auto,w_15/v1586048115/Signup/arrow.png) no-repeat;
+  background-position: 80% center;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+/*---resources end---*/  
+  
+a:link {color: white;}
+
+/*--header--*/
+header{
+  margin: 0;
+  padding: 0;
+}
+figure {
+  padding: 20px;
+  margin: 0 20px;
+}
+
+img {
+  padding: 5px;
+  width: 200px;
+  margin: 0 16px;
+}
+
+/*---form--*/
+.frm-wrap{
+  background-color: #fff;
+  padding: 25px;
+  margin:  auto;
+}
+
+/*---header & tagline---*/
+
+.welcome-wrap {
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 0 20px 0;
+}
+
+h1{
+  font-size: 93%;
+  padding: 5px 0;
+  color: #010188f1;
+  margin: 0;
+}
+
+.welcome-wrap p {
+  font-size: 65%;
+  font-weight: normal;
+  color: grey;
+  margin: 0;
+}
+
+form {
+  font-size: 80%;
+  font-weight: bold;
+  padding: 8px 5px;
+  /*width: 100%;*/
+}
+label {
+  display: inline-block;
+  font-size: 70%;
+  color: #574f4ff2;
+  padding: 40px 0 10px 0;
+}
+
+input{
+  font-size: 65%;
+  padding: 10px;
+  color: grey;
+  /*margin: 5px auto;*/
+  border-radius: 5px;
+  width: 93%;
+  height: 26px;
+  background-color: #e3eaf289;
+  border: none;
+}
+
+button {
+  font-weight: bold;
+  background-color: #010188f1;
+  color: white;
+  padding: 8px;
+  height: 50px;
+  margin: 25px 0 8px 0;
+  border: none;
+  border-radius: 8px;
+  border-bottom-left-radius: 1px;
+  width: 100%;
+}
+
+select>option {
+  color: black;
+  background-color: #e3eaf289;
+}
+
+/*--footer--*/
+.ft {padding: 20px 0;}
+
+.ft-wrap {
+  color: white;
+  font-size: 55%;
+}
+
+.ft-wrap p{text-align: center;}
+.ft-wrap a{text-decoration: none;}
